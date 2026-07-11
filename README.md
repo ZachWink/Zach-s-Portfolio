@@ -64,7 +64,7 @@ The goal of this project was to understand what drives Superstore’s sales and 
 
 ## Dashboard
 
-Tableau Dashboard: [Add your Tableau Public link here]
+Tableau Dashboard: [(https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)]
 
 ## Project Files
 
