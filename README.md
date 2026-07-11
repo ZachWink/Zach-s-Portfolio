@@ -6,7 +6,7 @@ Welcome to my data analytics portfolio. This portfolio showcases projects using 
 
 # Project 1: Superstore Sales Performance Dashboard
 
-## Executive Summary
+## Summary
 
 For my first data analytics project, I analyzed the Tableau Superstore dataset to evaluate sales performance, profitability, discount impact, and regional trends. I cleaned and prepared the data in Excel, analyzed key business questions using MySQL, and built an interactive Tableau dashboard to present the findings.
 
