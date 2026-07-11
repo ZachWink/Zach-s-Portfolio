@@ -57,7 +57,6 @@ This project will analyze campaign performance to identify which marketing chann
 
 ## Contact
 
-- LinkedIn: www.linkedin.com/in/zach-wink-b80b183a4
-- Tableau Public: https://public.tableau.com/app/profile/zach.wink/vizzes
-- GitHub: [Coming Soon
-](https://github.com/ZachWink)
+- [LinkedIn](www.linkedin.com/in/zach-wink-b80b183a4)
+- [Tableau Public](https://public.tableau.com/app/profile/zach.wink/vizzes)
+- [GitHub](https://github.com/ZachWink)
