@@ -69,4 +69,5 @@ The goal of this project was to understand what drives Superstore’s sales and 
 ## Project Files
 
 - SQL queries: [Add link to SQL file here]
-- Dashboard screenshot: [Add image here]
+- Dashboard screenshot: <img width="1899" height="833" alt="image" src="https://github.com/user-attachments/assets/64f2572e-6535-4fae-bc1c-c1cd33c5a133" />
+
