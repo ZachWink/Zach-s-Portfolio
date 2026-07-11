@@ -2,72 +2,61 @@
 
 Welcome to my data analytics portfolio. This portfolio showcases projects using Excel, SQL, Tableau, and business analysis to turn raw data into actionable insights.
 
----
+## About Me
 
-# Project 1: Superstore Sales Performance Dashboard
+I am building skills in data analytics with a focus on business performance, profitability, customer behavior, and dashboard reporting. My projects demonstrate data cleaning, SQL analysis, Tableau dashboard design, and business recommendations.
 
-## Summary
-
-For my first data analytics project, I analyzed the Tableau Superstore dataset to evaluate sales performance, profitability, discount impact, and regional trends. I cleaned and prepared the data in Excel, analyzed key business questions using MySQL, and built an interactive Tableau dashboard to present the findings.
-
-The strongest insight from this project was that discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
-
-## Business Problem
-
-The goal of this project was to understand what drives Superstore’s sales and profit performance. I wanted to answer questions such as:
-
-- Which regions generate the most sales?
-- Which product categories and sub-categories are most profitable?
-- Do higher discounts reduce profit margins?
-- How have sales and profit changed over time?
-
-## Tools Used
+## Skills
 
 - Excel
-- MySQL
-- Tableau Public
-- GitHub
+- SQL / MySQL
+- Tableau
+- Data Cleaning
+- Dashboard Design
+- Business Analysis
+- Profitability Analysis
+- Window Functions
+- KPI Reporting
 
-## Dataset
+---
 
-- Source: Tableau Superstore dataset
-- Rows analyzed: 10,194
-- Main fields used: Sales, Profit, Discount, Region, Category, Sub-Category, Product Name, Customer Name, Order Date, Ship Date
+## Projects
 
-## Key Insights
+### 1. Superstore Sales Performance Dashboard
 
-- Total sales were approximately $2.33M.
-- Total profit was approximately $292K.
-- The West region generated the highest total sales.
-- Sales and profit generally increased over time.
-- Discounts of 30% or higher were associated with negative profit margins.
-- Some sub-categories generated stronger profits than others, while others may need further review.
+**Tools:** Excel, MySQL, Tableau Public  
+**Skills:** Data cleaning, SQL aggregation, profit margin analysis, dashboard design, business recommendations
 
-## Recommendations
+Analyzed 10,194 Superstore sales records to evaluate sales trends, regional performance, profitability, discount impact, and product performance.
 
-- Review discounts of 30% or higher because they are associated with negative margins.
-- Investigate low-performing sub-categories and products with weak or negative profit.
-- Focus on high-performing regions and profitable product areas.
-- Continue monitoring sales and profit trends over time.
+**Key Insight:** Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
 
-## Skills Demonstrated
+- [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
+- [View Project Details](Superstore-Sales-Performance/README.md)
+- [View SQL Queries](Superstore-Sales-Performance/SQL/superstore_analysis.sql)
 
-- Data cleaning in Excel
-- CSV import into MySQL
-- SQL aggregation and filtering
-- `GROUP BY`, `HAVING`, `ORDER BY`
-- Date functions
-- Window functions using `LAG()`
-- Profit margin analysis
-- Tableau dashboard design
-- Business insight communication
+---
 
-## Dashboard
+### 2. Coming Soon: Hospital Wait Time Analysis
 
-[View Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
+**Tools:** Excel, SQL, Tableau  
+**Focus:** Healthcare analytics, wait times, patient volume, operational efficiency
 
-## Project Files
+This project will analyze hospital or emergency room wait time data to identify bottlenecks and opportunities to improve patient flow.
 
-- SQL queries: [Add link to SQL file here]
-- Dashboard screenshot: <img width="1899" height="833" alt="image" src="https://github.com/user-attachments/assets/64f2572e-6535-4fae-bc1c-c1cd33c5a133" />
+---
 
+### 3. Coming Soon: Marketing Campaign Performance Analysis
+
+**Tools:** Excel, SQL, Tableau  
+**Focus:** Marketing ROI, campaign performance, customer behavior, conversion analysis
+
+This project will analyze campaign performance to identify which marketing channels generate the strongest return.
+
+---
+
+## Contact
+
+- LinkedIn: [Add your LinkedIn link here]
+- Tableau Public: [Add your Tableau Public profile link here]
+- GitHub: [Add your GitHub profile link here]
