@@ -111,7 +111,4 @@ This project answered the following questions:
 
 ## Dashboard Preview
 
-Add your screenshot here:
-
-```markdown
 ![Superstore Sales Performance Dashboard](Images/superstore_dashboard.png)
