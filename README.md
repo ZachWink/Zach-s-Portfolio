@@ -31,10 +31,11 @@ I am building skills in data analytics with a focus on business performance, pro
 Analyzed 10,194 Superstore sales records to evaluate sales trends, regional performance, profitability, discount impact, and product performance.
 
 **Key Insight:** Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
+Recommended to Right Click for New Tab.
 
-- [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Superstore_Sales-Performance) - Recommended to Right Click for NEW TAB
-- [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes) - Recommended to Right Click for NEW TAB
-- [View SQL Queries](Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries) - Recommended to Right Click for NEW TAB
+- [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Superstore_Sales-Performance)
+- [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
+- [View SQL Queries](Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries)
 
 ---
 
