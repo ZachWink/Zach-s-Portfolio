@@ -32,7 +32,7 @@ Analyzed 10,194 Superstore sales records to evaluate sales trends, regional perf
 **Key Insight:** Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
 
 - [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
-- [View Project Details](Superstore-Sales-Performance/README.md)
+- [View Project Details](https://github.com/ZachWink/Zach-s-Portfolio/blob/superstore-project/Superstore_Sales-Performance/README.md)
 - [View SQL Queries](Superstore-Sales-Performance/SQL/superstore_analysis.sql)
 
 ---
