@@ -33,7 +33,7 @@ Analyzed 10,194 Superstore sales records to evaluate sales trends, regional perf
 
 - [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
 - [View Project Details](https://github.com/ZachWink/Zach-s-Portfolio/blob/superstore-project/Superstore_Sales-Performance/README.md)
-- [View SQL Queries](Superstore-Sales-Performance/SQL/superstore_analysis.sql)
+- [View SQL Queries](https://github.com/ZachWink/Zach-s-Portfolio/blob/superstore-project/Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries)
 
 ---
 
