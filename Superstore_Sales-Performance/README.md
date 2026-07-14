@@ -87,6 +87,12 @@ The main goal of this analysis was to answer:
 - KPI reporting
 - Business insight communication
 
+## Excel Sample and Cleaned Sample
+
+![Excel_Data_Sample](Images/Excel_Data_Sample)
+
+![Excel_Data_Cleaned](Images/Excel_Data_Cleaned)
+
 ## Dashboard
 
 [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
