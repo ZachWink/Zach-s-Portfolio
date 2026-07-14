@@ -97,7 +97,7 @@ The main goal of this analysis was to answer:
 
 ## SQL Discount Impact Query
 
-![SQL Discount Query](Images/SQL_Discount_Impact_Query)
+![SQL Discount Query](Superstore_Sales-Performance/Images/SQL_Discount_Impact_Query.png)
 
 ## Dashboard
 
