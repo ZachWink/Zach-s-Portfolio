@@ -34,9 +34,6 @@ FROM superstore;
    This query compares total sales across the four business
    regions. It helps identify which geographic areas generate
    the most revenue.
-
-   Region should be used rather than Country_Region because
-   Country_Region may only contain the country name.
    --------------------------------------------------------- */
 
 SELECT
