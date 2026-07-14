@@ -87,9 +87,11 @@ The main goal of this analysis was to answer:
 - KPI reporting
 - Business insight communication
 
-## Excel Sample and Cleaned Sample
+## Excel Sample
 
 ![Excel_Data_Sample](Images/Excel_Data_Sample)
+
+##  Excel Cleaned Sample
 
 ![Excel_Data_Cleaned](Images/Excel_Data_Cleaned)
 
