@@ -95,6 +95,10 @@ The main goal of this analysis was to answer:
 
 ![Excel_Data_Cleaned](Images/Excel_Data_Cleaned)
 
+## SQL Discount Impact Query
+
+![SQL Discount Query](Images/SQL_Discount_Impact_Query)
+
 ## Dashboard
 
 [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
