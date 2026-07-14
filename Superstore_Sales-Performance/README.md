@@ -15,7 +15,7 @@ The business needs to understand what is driving sales and profit performance ac
 The main goal of this analysis was to answer:
 
 - Which regions generate the most sales?
-- Which categories and sub-categories are most profitable?
+- Which sub-categories are most profitable?
 - Are discounts helping or hurting profitability?
 - How are sales and profit trending over time?
 - Which product areas should the business review?
@@ -36,15 +36,10 @@ The main goal of this analysis was to answer:
   - Sales
   - Profit
   - Discount
-  - Quantity
   - Order Date
-  - Ship Date
   - Region
-  - Category
   - Sub-Category
   - Product Name
-  - Customer Name
-  - State/Province
 
 ## Methodology
 
