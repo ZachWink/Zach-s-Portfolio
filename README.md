@@ -1,4 +1,5 @@
-# Zach's Data Analytics Portfolio
+# (START HERE)
+# Zach's Data Analytics Portfolio 
 
 Welcome to my data analytics portfolio. This portfolio showcases Zach's projects using Excel, SQL, Tableau, and business analysis to turn raw data into actionable insights.
 
