@@ -1,0 +1,169 @@
+/* =========================================================
+   SUPERSTORE SALES PERFORMANCE ANALYSIS
+   Purpose:
+   Analyze overall business performance, regional sales,
+   monthly trends, discount profitability, and sub-category
+   performance for the Tableau dashboard.
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. OVERALL BUSINESS KPIs
+
+   Reasoning:
+   This query calculates the headline metrics displayed at
+   the top of the dashboard.
+
+   COUNT(DISTINCT Order_ID) is used because one order can
+   contain multiple product rows.
+   --------------------------------------------------------- */
+
+SELECT
+    ROUND(SUM(Sales), 2) AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit,
+    COUNT(DISTINCT Order_ID) AS total_orders,
+    COUNT(DISTINCT Customer_ID) AS total_customers,
+    SUM(Quantity) AS total_quantity_sold
+FROM superstore;
+
+
+/* ---------------------------------------------------------
+   2. SALES BY REGION
+
+   Reasoning:
+   This query compares total sales across the four business
+   regions. It helps identify which geographic areas generate
+   the most revenue.
+
+   Region should be used rather than Country_Region because
+   Country_Region may only contain the country name.
+   --------------------------------------------------------- */
+
+SELECT
+    Region,
+    ROUND(SUM(Sales), 2) AS total_sales
+FROM superstore
+GROUP BY Region
+ORDER BY total_sales DESC;
+
+
+/* ---------------------------------------------------------
+   3. MONTHLY SALES AND PROFIT TREND
+
+   Reasoning:
+   This query groups performance by calendar month so that
+   sales and profit can be displayed as a time-series chart.
+
+   Grouping by the first day of each month keeps the months
+   in the correct chronological order.
+   --------------------------------------------------------- */
+
+SELECT
+    DATE_FORMAT(Order_Date, '%Y-%m-01') AS order_month,
+    ROUND(SUM(Sales), 2) AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit
+FROM superstore
+GROUP BY DATE_FORMAT(Order_Date, '%Y-%m-01')
+ORDER BY order_month;
+
+
+/* ---------------------------------------------------------
+   4. DISCOUNT IMPACT ON PROFIT MARGIN
+
+   Reasoning:
+   This query evaluates whether higher discount levels are
+   associated with stronger or weaker profitability.
+
+   Profit margin is calculated as:
+   total profit divided by total sales.
+
+   This analysis showed that discounts of 30% or higher were
+   associated with negative aggregate profit margins.
+   --------------------------------------------------------- */
+
+SELECT
+    Discount,
+    COUNT(*) AS transaction_rows,
+    ROUND(SUM(Sales), 2) AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit,
+    ROUND(
+        SUM(Profit) / NULLIF(SUM(Sales), 0) * 100,
+        2
+    ) AS profit_margin_percentage
+FROM superstore
+GROUP BY Discount
+ORDER BY Discount;
+
+
+/* ---------------------------------------------------------
+   5. PROFIT BY SUB-CATEGORY
+
+   Reasoning:
+   This query compares profitability across individual
+   product sub-categories.
+
+   It helps identify strong-performing product groups and
+   areas producing losses that may require pricing, cost,
+   or discount reviews.
+   --------------------------------------------------------- */
+
+SELECT
+    Sub_Category,
+    ROUND(SUM(Sales), 2) AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit,
+    ROUND(
+        SUM(Profit) / NULLIF(SUM(Sales), 0) * 100,
+        2
+    ) AS profit_margin_percentage
+FROM superstore
+GROUP BY Sub_Category
+ORDER BY total_profit DESC;
+
+
+/* ---------------------------------------------------------
+   6. YEAR-OVER-YEAR SALES AND PROFIT PERFORMANCE
+
+   Reasoning:
+   This query summarizes annual performance and uses the
+   LAG window function to compare each year with the previous
+   year.
+
+   It demonstrates whether the business is growing and shows
+   the use of CTEs and SQL window functions.
+   --------------------------------------------------------- */
+
+WITH yearly_performance AS (
+    SELECT
+        YEAR(Order_Date) AS order_year,
+        COUNT(DISTINCT Order_ID) AS total_orders,
+        ROUND(SUM(Sales), 2) AS total_sales,
+        ROUND(SUM(Profit), 2) AS total_profit
+    FROM superstore
+    GROUP BY YEAR(Order_Date)
+),
+
+yearly_comparison AS (
+    SELECT
+        order_year,
+        total_orders,
+        total_sales,
+        total_profit,
+        LAG(total_sales) OVER (
+            ORDER BY order_year
+        ) AS previous_year_sales
+    FROM yearly_performance
+)
+
+SELECT
+    order_year,
+    total_orders,
+    total_sales,
+    total_profit,
+    previous_year_sales,
+    ROUND(
+        (total_sales - previous_year_sales)
+        / NULLIF(previous_year_sales, 0) * 100,
+        2
+    ) AS sales_growth_percentage
+FROM yearly_comparison
+ORDER BY order_year;
