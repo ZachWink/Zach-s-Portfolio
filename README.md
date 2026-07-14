@@ -31,9 +31,9 @@ Analyzed 10,194 Superstore sales records to evaluate sales trends, regional perf
 
 **Key Insight:** Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
 
+- [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/blob/superstore-project/Superstore_Sales-Performance/README.md)
 - [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
-- [View Project Details](Superstore-Sales-Performance/README.md)
-- [View SQL Queries](Superstore-Sales-Performance/SQL/superstore_analysis.sql)
+- [View SQL Queries](https://github.com/ZachWink/Zach-s-Portfolio/blob/superstore-project/Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries)
 
 ---
 
@@ -57,6 +57,6 @@ This project will analyze campaign performance to identify which marketing chann
 
 ## Contact
 
-- [LinkedIn](www.linkedin.com/in/zach-wink-b80b183a4)
+- [LinkedIn](https://www.linkedin.com/in/zach-wink-b80b183a4/)
 - [Tableau Public](https://public.tableau.com/app/profile/zach.wink/vizzes)
 - [GitHub](https://github.com/ZachWink)
