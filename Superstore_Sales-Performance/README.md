@@ -4,7 +4,7 @@
 
 This project analyzes 10,194 records from the Tableau Superstore dataset to evaluate sales performance, profitability, discount impact, regional trends, and product performance.
 
-I cleaned and prepared the data in Excel, imported it into MySQL for analysis, and built an interactive Tableau Public dashboard to present the findings.
+I cleaned and prepared the data in Excel, imported it into MySQL for analysis, and then built an interactive Tableau Public dashboard to present the findings that were discovered through SQL queries.
 
 The strongest business insight was that discounts of 30% or higher were associated with negative profit margins. This suggests the business should review heavy discounting strategies and investigate products or sub-categories with weak profitability.
 
@@ -15,17 +15,17 @@ The business needs to understand what is driving sales and profit performance ac
 The main goal of this analysis was to answer:
 
 - Which regions generate the most sales?
-- Which sub-categories are most profitable?
+- Which sub-categories are most profitable or need review?
 - Are discounts helping or hurting profitability?
 - How are sales and profit trending over time?
 - Which product areas should the business review?
 
 ## Tools Used
 
-- Excel
-- MySQL Workbench
-- Tableau Public
-- GitHub
+- Excel - Data Cleaning
+- MySQL Workbench - Querying
+- Tableau Public - Displaying
+- GitHub - Project uploading
 
 ## Dataset
 
@@ -47,22 +47,10 @@ The main goal of this analysis was to answer:
 2. Renamed fields for easier SQL use.
 3. Exported the cleaned file as a CSV.
 4. Imported the CSV into MySQL.
-5. Converted text fields into usable numeric and date formats.
+5. Reviewed text fields to ensure usable numeric and date formats.
 6. Wrote SQL queries to analyze sales, profit, discounts, regions, products, customers, and trends.
 7. Built a Tableau dashboard to visualize the most important findings.
 8. Created business recommendations based on the analysis.
-
-## Key Business Questions
-
-This project answered the following questions:
-
-1. What are total sales, profit, orders, and quantity sold?
-2. Which region generated the highest sales?
-3. Which categories and sub-categories were most profitable?
-4. How did sales and profit change over time?
-5. Which discount levels were associated with negative profit margins?
-6. Which products or sub-categories may need further review?
-7. Which areas of the business should be prioritized for improvement?
 
 ## Key Insights
 
@@ -72,7 +60,6 @@ This project answered the following questions:
 - Sales and profit generally increased over time.
 - Discounts of 30% or higher were associated with negative profit margins.
 - Some sub-categories generated stronger profits than others.
-- Products and sub-categories with low or negative profit margins should be reviewed for pricing, discounting, or discontinuation.
 
 ## Recommendations
 
