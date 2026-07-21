@@ -21,3 +21,9 @@ I used Excel to clean, prepare, and analyze a simulated ER wait-time dataset. I 
 - **Data type:** Simulated healthcare operational data
 - **Key fields:** urgency level, time of day, nurse-to-patient ratio, wait stages, patient outcome, and satisfaction
 
+  ## Tools and Skills
+
+- **Tool:** Microsoft Excel
+- **Techniques:** Data cleaning, descriptive statistics, PivotTables, PivotCharts, outlier analysis, segmentation, and exploratory data analysis
+- **Business skills:** Translating findings into operational recommendations
+
