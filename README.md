@@ -31,6 +31,7 @@ I am building skills in data analytics with a focus on business performance, pro
 Analyzed 10,194 Superstore sales records to evaluate sales trends, regional performance, profitability, discount impact, and product performance.
 
 **Key Insight:** Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.
+
 Recommended to Right Click for New Tab.
 
 - [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Superstore_Sales-Performance)
@@ -39,15 +40,22 @@ Recommended to Right Click for New Tab.
 
 ---
 
-### 2. Coming Soon: Hospital Wait Time Analysis
+### 2. Healthcare ER Wait Time Analysis
 
-**Tools:** Excel, SQL, Tableau  
-**Focus:** Healthcare analytics, wait times, patient volume, operational efficiency
+**Tools:** Microsoft Excel  
+**Skills:** Data cleaning, exploratory data analysis, PivotTables, PivotCharts, descriptive statistics, outlier analysis, business recommendations
 
-This project will analyze hospital or emergency room wait time data to identify bottlenecks and opportunities to improve patient flow.
+Analyzed 5,000 simulated emergency room visits to identify when wait times were highest, which operational factors were associated with longer waits, and how wait times related to patient satisfaction and outcomes.
+
+**Key Insight:** Evening visits, heavier nurse workloads, and the delay before seeing a medical professional were strongly associated with longer waits. All 84 extreme-wait visits involved low-urgency patients, and 20.2% ended with the patient leaving without being seen.
+
+Recommended to Right Click for New Tab.
+
+- [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Healthcare_ER_Wait_Time_EDA)
+- [View Excel Analysis](Healthcare_ER_Wait_Time_EDA/Excel/Healthcare_ER_Wait_Time_EDA.xlsx)
+- [View Source Dataset](Healthcare_ER_Wait_Time_EDA/Data/ER_Wait_Time_Dataset.xlsx)
 
 ---
-
 ### 3. Coming Soon: Marketing Campaign Performance Analysis
 
 **Tools:** Excel, SQL, Tableau  
