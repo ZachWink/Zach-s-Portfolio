@@ -147,7 +147,7 @@ This report summarizes the main findings, business impact, recommendations, and 
 ![EDA 4](https://github.com/ZachWink/Zach-s-Portfolio/blob/ea238c8eb194efd33a028553c2b8807fdb4807d7/Healthcare_ER_Wait_Time_EDA/Images/Are%20Lower_Nurse_Staffing_Levels_Associated_With_Longer_Wait_Times.png)
 ![EDA 5](https://github.com/ZachWink/Zach-s-Portfolio/blob/ea238c8eb194efd33a028553c2b8807fdb4807d7/Healthcare_ER_Wait_Time_EDA/Images/Common_Outlier_Conditions_That_Led_To_Long_Wait_Time.png)
 
-This section presents the major comparisons across urgency level, time of day, nurse workload, patient outcome, satisfaction, and other operational categories.
+This section presents the major comparisons across urgency level, time of day, nurse workload, and other operational categories.
 
 ### Total Wait Time Analysis
 
