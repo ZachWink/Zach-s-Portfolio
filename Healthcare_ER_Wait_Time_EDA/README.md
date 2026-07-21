@@ -1,5 +1,5 @@
 ## Healthcare ER Wait Time Analysis ##
-The purpose of this project is to use Exploritory Data Analysis on ER Wait Times to find meaningful data and produce impactful business recommendations.
+The purpose of this project is to use exploratory data analysis to identify meaningful patterns in ER wait times and develop actionable business recommendations.
 
 
 ## EXECUTIVE SUMMARY ##
