@@ -135,7 +135,7 @@ These findings are important because they show that some expected relationships 
 
 ### ER Wait Time Analysis Report
 
-![ER Wait Time Analysis Report](Images/er_wait_time_analysis_report.png)
+![ER Wait Time Analysis Report](Images/ER_Wait_Time_Analysis_Report.png)
 
 This report summarizes the main findings, business impact, recommendations, and limitations of the analysis.
 
