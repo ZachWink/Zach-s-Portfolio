@@ -241,13 +241,8 @@ Because the dataset is simulated, the findings should be interpreted as an analy
 With additional data, the analysis could be expanded by:
 
 - Comparing hourly patient arrivals with scheduled staffing
-- Examining provider coverage by shift
 - Measuring treatment duration and room turnover
-- Investigating diagnosis and treatment complexity
-- Studying seasonal illness patterns
-- Tracking changes in patients' urgency while they wait
 - Building an interactive Excel or Power BI dashboard
-- Developing a model to estimate or predict ER wait times
 - Monitoring patients at risk of leaving without being seen
 
 ---
