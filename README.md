@@ -53,6 +53,7 @@ Recommended to Right Click for New Tab.
 
 - [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Healthcare_ER_Wait_Time_EDA)
 - [View Excel Analysis](https://1drv.ms/x/c/f50f5cdc42148040/IQCj3eqhM3upQZ8xXx6eyxbZAZc0hxg-Y6sWuKj-O8jR03E?e=hrwjOv)
+  ![Charts](https://github.com/ZachWink/Zach-s-Portfolio/blob/25b7c0b41497c574f72a6e0ffd6e340507778d0e/Healthcare_ER_Wait_Time_EDA/Images/3_ER_Wait_Time_Charts.png)
 
 ---
 ### 3. Coming Soon: Marketing Campaign Performance Analysis
