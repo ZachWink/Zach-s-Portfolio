@@ -4,3 +4,10 @@ The purpose of this project is to use exploratory data analysis to identify mean
 
 ## EXECUTIVE SUMMARY ##
 I used Excel to clean, prepare, and analyze a simulated ER wait-time dataset. I conducted an exploratory analysis guided by several business questions, including which factors were associated with longer ER wait times and when those waits were highest. Critical patients waited an average of 18.4 minutes, compared with 173.5 minutes for low-urgency patients. Longer wait times were associated with several operational factors, including the stage of the ER process, nurse workload, and time of day. The largest delay occurred while waiting to see a medical professional, which accounted for approximately 55% of the average total wait. Evening visits and heavier nurse workloads were also associated with longer waits. All 84 extreme-wait visits involved low-urgency patients, 79.8% occurred in the evening, and 20.2% ended with the patient leaving without being seen. Recommendations include investigating bottlenecks during Monday evenings, reviewing staffing and patient flow during evening shifts, and focusing improvement efforts on the delay between triage and seeing a medical professional. These actions could improve patient flow and satisfaction while helping managers allocate resources more effectively.
+
+## Business Questions
+- When are ER Wait times highest?
+- Which patient and operational factors are associated with longer waits?
+- Which stage of the ER process contributes most to total wait time?
+- How are wait times related to patient satisfaction and outcomes?
+- What conditions are most common among extreme wait-time visits?
