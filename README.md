@@ -1,6 +1,7 @@
 # Zach's Data Analytics Portfolio 
-- [LinkedIn](https://www.linkedin.com/in/zach-wink-b80b183a4/)
+
 Welcome to my data analytics portfolio. This portfolio showcases Zach's projects using Excel, SQL, Tableau, and business analysis to turn raw data into actionable insights.
+Contact: [LinkedIn](https://www.linkedin.com/in/zach-wink-b80b183a4/)
 
 ## About Me
 
