@@ -37,6 +37,7 @@ Recommended to Right Click for New Tab.
 - [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Superstore_Sales-Performance)
 - [View Tableau Dashboard](https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes)
 - [View SQL Queries](Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries)
+  ![SuperStore_Charts](https://github.com/ZachWink/Zach-s-Portfolio/blob/03a118cb759407a3f24eb9e5114355bbbbaecbdf/Superstore_Sales-Performance/Images/superstore_dashboard.png)
 
 ---
 
