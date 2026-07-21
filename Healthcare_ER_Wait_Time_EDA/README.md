@@ -135,7 +135,7 @@ These findings are important because they show that some expected relationships 
 
 ### ER Wait Time Analysis Report
 
-![ER Wait Time Analysis Report]([Images/1_er_wait_time_analysis_report.png](https://github.com/ZachWink/Zach-s-Portfolio/blob/9b3d2b40766230310f590fd29e48e79c69c733f4/Healthcare_ER_Wait_Time_EDA/Images/1_ER_Wait_Time_Analysis_Report.png))
+![ER Wait Time Analysis Report](https://github.com/ZachWink/Zach-s-Portfolio/blob/9b3d2b40766230310f590fd29e48e79c69c733f4/Healthcare_ER_Wait_Time_EDA/Images/1_ER_Wait_Time_Analysis_Report.png)
 
 This report summarizes the main findings, business impact, recommendations, and limitations of the analysis.
 
