@@ -27,3 +27,8 @@ I used Excel to clean, prepare, and analyze a simulated ER wait-time dataset. I 
 - **Techniques:** Data cleaning, descriptive statistics, PivotTables, PivotCharts, outlier analysis, segmentation, and exploratory data analysis
 - **Business skills:** Translating findings into operational recommendations
 
+## Data Cleaning and Preparation
+
+The dataset was reviewed for missing values, duplicate records, duplicate Visit IDs, incorrect data types, invalid ranges, and inconsistent categories. One text-encoding issue in a hospital name was corrected.
+
+Additional preparation included creating helper fields for facility-size groups and extreme wait-time outliers. Facility capacity was grouped into Small, Medium, Large, and Very Large categories to make comparisons more meaningful.
