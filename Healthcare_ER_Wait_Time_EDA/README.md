@@ -147,7 +147,7 @@ This section presents the major comparisons across urgency level, time of day, n
 
 ### Total Wait Time Analysis
 
-![Total Wait Time Analysis](Images/total_wait_time_summary.png)
+![Total Wait Time Analysis](Healthcare_ER_Wait_Time_EDA/Images/2_Total_Wait_Time_Calculations.png)
 
 The wait-time distribution was strongly right-skewed. The median wait of 60 minutes was lower than the average of 81.9 minutes because a smaller number of extremely long visits increased the average.
 
