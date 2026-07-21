@@ -52,8 +52,7 @@ Analyzed 5,000 simulated emergency room visits to identify when wait times were 
 Recommended to Right Click for New Tab.
 
 - [View Full Project](https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Healthcare_ER_Wait_Time_EDA)
-- [View Excel Analysis](Healthcare_ER_Wait_Time_EDA/Excel/Healthcare_ER_Wait_Time_EDA.xlsx)
-- [View Source Dataset](Healthcare_ER_Wait_Time_EDA/Data/ER_Wait_Time_Dataset.xlsx)
+- [View Excel Analysis](https://1drv.ms/x/c/f50f5cdc42148040/IQCj3eqhM3upQZ8xXx6eyxbZAZc0hxg-Y6sWuKj-O8jR03E?e=hrwjOv)
 
 ---
 ### 3. Coming Soon: Marketing Campaign Performance Analysis
