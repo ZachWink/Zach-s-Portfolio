@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zach Wink's data analytics portfolio featuring Excel, SQL, Tableau, and exploratory data analysis projects." />
+  <title>Zach Wink | Data Analytics Portfolio</title>
+  <style>
+    :root { --bg:#f4f7fb; --surface:#fff; --text:#172033; --muted:#5f6b7a; --accent:#2457d6; --accent-dark:#173ea1; --border:#dfe5ee; --shadow:0 10px 30px rgba(23,32,51,.08); --max-width:1120px; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--text); background:var(--bg); line-height:1.6; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { color:var(--accent-dark); text-decoration:underline; }
+    .container { width:min(92%,var(--max-width)); margin:0 auto; }
+    header { background:linear-gradient(135deg,#173a8f,#2d68e8); color:#fff; padding:72px 0 56px; }
+    .hero { display:grid; gap:18px; }
+    .hero h1 { margin:0; font-size:clamp(2.2rem,6vw,4.3rem); line-height:1.05; }
+    .hero p { margin:0; max-width:760px; font-size:1.15rem; color:rgba(255,255,255,.9); }
+    .hero-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:10px; }
+    .button { display:inline-block; padding:11px 17px; border-radius:8px; background:#fff; color:#173a8f; font-weight:700; border:1px solid #fff; }
+    .button.secondary { background:transparent; color:#fff; }
+    .button:hover { text-decoration:none; transform:translateY(-1px); }
+    main { padding:54px 0 72px; }
+    section { margin-bottom:58px; }
+    .section-title { margin-bottom:8px; font-size:2rem; }
+    .section-intro { margin-top:0; color:var(--muted); max-width:780px; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr)); gap:26px; margin-top:28px; }
+    .project-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; overflow:hidden; box-shadow:var(--shadow); display:flex; flex-direction:column; }
+    .project-card img { width:100%; height:230px; object-fit:cover; object-position:top; border-bottom:1px solid var(--border); background:#e8edf5; }
+    .project-content { padding:24px; display:flex; flex-direction:column; gap:14px; height:100%; }
+    .project-content h3 { margin:0; font-size:1.35rem; }
+    .project-content p { margin:0; color:var(--muted); }
+    .meta { display:grid; gap:8px; font-size:.96rem; }
+    .meta strong { color:var(--text); }
+    .insight { padding:14px 16px; border-left:4px solid var(--accent); background:#f5f8ff; border-radius:6px; color:var(--text)!important; }
+    .project-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:auto; padding-top:4px; }
+    .project-links a { font-weight:700; }
+    .about-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:26px; box-shadow:var(--shadow); }
+    footer { border-top:1px solid var(--border); background:var(--surface); padding:28px 0; text-align:center; color:var(--muted); }
+    @media (max-width:640px) { header { padding-top:52px; } .project-card img { height:190px; } .hero-links,.project-links { flex-direction:column; align-items:flex-start; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container hero">
+      <h1>Zach Wink</h1>
+      <p>Data analytics portfolio featuring Excel, SQL, Tableau, exploratory analysis, dashboard design, and business recommendations.</p>
+      <div class="hero-links">
+        <a class="button" href="#projects">View Projects</a>
+        <a class="button secondary" href="https://github.com/ZachWink" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-intro">Each project focuses on a business problem, a structured analytical process, clear findings, and practical recommendations.</p>
+
+      <div class="projects">
+        <article class="project-card">
+          <img src="Superstore_Sales-Performance/Images/Superstore_Sales_Performance_Dashboard.png" alt="Superstore Sales Performance Dashboard" />
+          <div class="project-content">
+            <h3>1. Superstore Sales Performance Dashboard</h3>
+            <div class="meta">
+              <div><strong>Tools:</strong> Excel, MySQL, Tableau Public</div>
+              <div><strong>Skills:</strong> Data cleaning, SQL aggregation, profit margin analysis, dashboard design, business recommendations</div>
+            </div>
+            <p>Analyzed 10,194 Superstore sales records to evaluate sales trends, regional performance, profitability, discount impact, and product performance.</p>
+            <p class="insight"><strong>Key Insight:</strong> Discounts of 30% or higher were associated with negative profit margins, suggesting the business should review heavy discounting strategies.</p>
+            <div class="project-links">
+              <a href="https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Superstore_Sales-Performance" target="_blank" rel="noopener noreferrer">View Full Project</a>
+              <a href="https://public.tableau.com/app/profile/zach.wink/viz/SuperstoreSalesPerformanceDashboard_17831558232310/SuperstoreSalesPerformanceDash?publish=yes" target="_blank" rel="noopener noreferrer">View Tableau Dashboard</a>
+              <a href="Superstore_Sales-Performance/SQL/SuperStore_SQL_Queries" target="_blank" rel="noopener noreferrer">View SQL Queries</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="Healthcare_ER_Wait_Time_EDA/Images/1_ER_Wait_Time_Analysis_Report.png" alt="Healthcare ER Wait Time Analysis Report" />
+          <div class="project-content">
+            <h3>2. Healthcare ER Wait Time Analysis</h3>
+            <div class="meta">
+              <div><strong>Tools:</strong> Microsoft Excel</div>
+              <div><strong>Skills:</strong> Data cleaning, exploratory data analysis, PivotTables, PivotCharts, descriptive statistics, outlier analysis, business recommendations</div>
+            </div>
+            <p>Analyzed 5,000 simulated emergency room visits to identify when wait times were highest, which operational factors were associated with longer waits, and how wait times related to patient satisfaction and outcomes.</p>
+            <p class="insight"><strong>Key Insight:</strong> Evening visits, heavier nurse workloads, and the delay before seeing a medical professional were strongly associated with longer waits. All 84 extreme-wait visits involved low-urgency patients.</p>
+            <div class="project-links">
+              <a href="https://github.com/ZachWink/Zach-s-Portfolio/tree/main/Healthcare_ER_Wait_Time_EDA" target="_blank" rel="noopener noreferrer">View Full Project</a>
+              <a href="Healthcare_ER_Wait_Time_EDA/Excel/Healthcare_ER_Wait_Time_EDA.xlsx" target="_blank" rel="noopener noreferrer">Download Excel Analysis</a>
+              <a href="Healthcare_ER_Wait_Time_EDA/Data/ER_Wait_Time_Dataset.xlsx" target="_blank" rel="noopener noreferrer">Download Dataset</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About This Portfolio</h2>
+      <div class="about-card">
+        <p>This portfolio highlights projects that combine technical analysis with business context. My work focuses on cleaning data, exploring patterns, communicating insights clearly, and developing recommendations that decision-makers can act on.</p>
+        <p>Additional projects in healthcare and marketing analytics will be added as the portfolio grows.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Zach Wink · Data Analytics Portfolio</div>
+  </footer>
+</body>
+</html>
